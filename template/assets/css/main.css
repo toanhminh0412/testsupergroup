@@ -11,7 +11,7 @@
 }
 .super-group-body-wrap {
 	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
-	height: 100vh;
+	min-height: 100vh;
 }
 .super-group-body {
 	background: #ffffff;
@@ -22,8 +22,8 @@
 	border-top: 1px solid #555;
 	/*height: 75px;*/
 	padding: 0 20px;
-	/* background: linear-gradient(to right, #000000, #565756); */
-	background-color: #ffffff;
+	background: linear-gradient(to right, #ffffff, #565756);
+	/* background-color: #ffffff; */
 	border-bottom: rgb(226 232 240) 1px solid;
 }
 .super-group-header {
@@ -195,7 +195,7 @@
 .super-group-content-wrap {
 	margin: 0;
 	padding: 0;
-	min-height: 60vh;
+	min-height: 63vh;
 	padding: 0 20px 40px 20px !important;
 	/* background-color: rgb(241 245 249); */
 }
@@ -224,8 +224,11 @@
 
 /* Footer */
 .super-group-footer-wrap {
+	/* background: linear-gradient(to left, #ffffff, #000000); */
 	background: #666;
 	padding: 0 20px;
+	height: 100px;
+	/* min-height: 100% !important; */
 }
 .super-group-footer {
 	margin: 0;
